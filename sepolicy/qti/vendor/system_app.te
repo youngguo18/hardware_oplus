@@ -1,0 +1,4 @@
+dontaudit system_app proc_pagetypeinfo:file read;
+dontaudit system_app sysfs_zram:dir search;
+dontaudit system_app system_suspend_control_service:service_manager { find };
+dontaudit system_app system_suspend_control_internal_service:service_manager { find };
