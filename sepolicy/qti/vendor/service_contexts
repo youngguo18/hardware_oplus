@@ -14,7 +14,7 @@ ParamService                    u:object_r:oem_service:s0
 vendor.nxp.nxpnfc_aidl.INxpNfc/default    u:object_r:hal_nfc_service:s0
 
 # OSENSE
-vendor.oplus.hardware.osense.client.IOsenseAidlHalReporter/default    u:object_r:fwk_osense_aidl_service:s0
+vendor.oplus.hardware.osense.client.IOsenseAidlHalReporter/default    u:object_r:hal_oplus_osense_aidl_service:s0
 
 # Sensor
 vendor.oplus.hardware.oplusSensor.ISensorFeature/default                u:object_r:hal_oplusSensor_aidl_service:s0
