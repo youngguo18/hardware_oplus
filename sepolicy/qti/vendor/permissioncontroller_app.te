@@ -1,0 +1,2 @@
+allow permissioncontroller_app vendor_hal_qspmhal_default:binder { call };
+allow permissioncontroller_app vendor_hal_qspmhal_default:binder { call };
